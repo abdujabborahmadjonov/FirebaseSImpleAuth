@@ -18,8 +18,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
         auth = FirebaseAuth.getInstance()
-        auth.signOut()
-
+        binding.signout.setOnClickListener {
+            auth.signOut()
+        }
         binding.btnRegister.setOnClickListener {
             registerUser()
         }
