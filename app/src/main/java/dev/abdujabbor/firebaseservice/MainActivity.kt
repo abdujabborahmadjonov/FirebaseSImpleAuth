@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         binding.signout.setOnClickListener {
             auth.signOut()
+            binding.tvLoggedIn.text = "you are not logged in"
         }
         binding.btnRegister.setOnClickListener {
             registerUser()
