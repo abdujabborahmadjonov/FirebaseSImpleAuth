@@ -1,3 +1,61 @@
 <resources>
     <string name="app_name">Firebase Service</string>
+
+    <!-- Auth screen -->
+    <string name="title_login">Welcome back</string>
+    <string name="title_register">Create account</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="action_login">Log in</string>
+    <string name="action_register">Register</string>
+    <string name="action_need_account">Don\'t have an account? Register</string>
+    <string name="action_have_account">Already have an account? Log in</string>
+    <string name="action_forgot_password">Forgot password?</string>
+    <string name="password_strength">Password strength: %1$s</string>
+    <string name="password_strength_weak">weak</string>
+    <string name="password_strength_medium">medium</string>
+    <string name="password_strength_strong">strong</string>
+
+    <!-- Home screen -->
+    <string name="title_welcome">Your account</string>
+    <string name="signed_in_as">Signed in as %1$s</string>
+    <string name="status_verified">E-mail verified</string>
+    <string name="status_not_verified">E-mail not verified</string>
+    <string name="verification_hint">Check your inbox for the verification link, then tap Refresh.</string>
+    <string name="action_resend_verification">Resend e-mail</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_change_password">Change password</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="action_delete_account">Delete account</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="hint_current_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="delete_account_warning">This permanently deletes your account. Enter your password to confirm.</string>
+
+    <!-- Messages -->
+    <string name="message_verification_sent">Verification e-mail sent</string>
+    <string name="message_reset_email_sent">Password reset e-mail sent</string>
+    <string name="message_email_verified">Your e-mail is verified</string>
+    <string name="message_email_not_verified_yet">Your e-mail is not verified yet</string>
+    <string name="message_password_changed">Password changed</string>
+    <string name="message_account_deleted">Account deleted</string>
+
+    <!-- Errors -->
+    <string name="error_email_required">E-mail is required</string>
+    <string name="error_email_invalid">Enter a valid e-mail address</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_password_too_short">Password must be at least 6 characters</string>
+    <string name="error_passwords_do_not_match">Passwords do not match</string>
+    <string name="error_current_password_required">Enter your current password</string>
+    <string name="error_password_unchanged">The new password must be different</string>
+    <string name="error_weak_password">That password is too weak</string>
+    <string name="error_invalid_credentials">Wrong e-mail or password</string>
+    <string name="error_user_not_found">No account found for this e-mail</string>
+    <string name="error_email_in_use">An account with this e-mail already exists</string>
+    <string name="error_recent_login">Please sign in again to continue</string>
+    <string name="error_too_many_requests">Too many attempts. Try again later</string>
+    <string name="error_network">No internet connection</string>
+    <string name="error_generic">Something went wrong. Please try again</string>
 </resources>
